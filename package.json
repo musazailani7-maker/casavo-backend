@@ -1,0 +1,23 @@
+{
+  "name": "casavo-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "dev": "ts-node-dev src/main.ts"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "@nestjs/jwt": "^10.0.0",
+    "@nestjs/passport": "^10.0.0",
+    "@nestjs/platform-express": "^10.0.0",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0",
+    "pg": "^8.11.0",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1"
+  }
+}
